@@ -1,2 +1,3 @@
 # testNBA
-Sample
+Sample in python
+
