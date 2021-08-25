@@ -3,8 +3,8 @@ data={"values":[{"first_name":"Alex","h_in":"77","h_meters":"1.96","last_name":"
 print ('DATA:', repr(data))
 #encoded
 data_string = json.dumps(data)
-print 'JSON:', data_string
+print ('JSON:', data_string)
 #decoded
 decoded = json.loads(data_string)
-print ( +str(decoded["values"][0]["first_name"][0])
+print ( +str(decoded["values"][1]["first_name"][0]["h_in"][0]["h_meters"][0]["last_name"][0])
 print ( +str(decoded["values"][0]["first_name"][1])
