@@ -6,5 +6,5 @@ data_string = json.dumps(data)
 print ('JSON:', data_string)
 #decoded
 decoded = json.loads(data_string)
-print ( +str(decoded["values"][1]["first_name"][0]["h_in"][0]["h_meters"][0]["last_name"][0])
-print ( +str(decoded["values"][0]["first_name"][1])
+print ( +str(decoded["values"][0]["first_name"][0]["h_in"][0]["h_meters"][0]["last_name"][0])
+print ( +str(decoded["values"][0]["first_name"][1]["h_in"][1]["h_meters"][1]["last_name"][1])
